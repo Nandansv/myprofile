@@ -1,12 +1,18 @@
 import logo from './logo.svg';
+import dp from './img/dp_lrs.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
+        <img src={dp} className="App-logo" alt="logo"/>
+
+        <p>Stay Tuned...........</p>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
+          This is Vamsi Profile
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,7 +22,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
